@@ -1,2 +1,2 @@
 
-<?php include "./Poject/view/welcome.php"?>
+<?php include "./Poject/view/home.php"?>
