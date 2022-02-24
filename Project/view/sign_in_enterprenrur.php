@@ -1,1 +1,1 @@
-<?php include "./nav_ber02.php"?>
+<?php include "./nav_ber_en.php"?>

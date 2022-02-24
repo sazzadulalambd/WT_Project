@@ -7,7 +7,7 @@
 
 <body>
 
-<?php include "./nav_ber.php"?>
+<?php include "./nav_ber_in.php"?>
 <?php include "./welcome.php"?>
 
 
