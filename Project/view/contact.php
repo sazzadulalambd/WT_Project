@@ -9,29 +9,42 @@
 
 <p><b>Sazzadul alam shawon</b> <small>  19-39385-1</small></p>
 <img src="../img/SUAS.jpg" width="110" height="120">
+<a href="https://www.facebook.com/sazzadulalamshawonbd/"><img src="../img/Facebook.png" width="25" height="25"></a>
+<a href="mailto:sazzad.sua@gmail.com"><img src="../img/mail.png" width="25" height="25"></a>
+
+
 <p>
 2020-2022 © BEPARTNER <br>
-POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT DEPARTMENT.<br>
+POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT TEAM.<br>
 AMERICAN INTERNATIONAL UNIVERSITY-BANGLADESH</p>
 
 <p><b>Md. Rifat Hossain</b> <small>  18-38939-3</small></p>
+
+<a href="https://www.facebook.com/rrriiifffaaattt/"><img src="../img/Facebook.png" width="25" height="25"></a>
+<a href="mailto:sazzad.sua@gmail.com"><img src="../img/mail.png" width="25" height="25"></a>
 <p>
 2020-2022 © BEPARTNER <br>
-POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT DEPARTMENT.<br>
+POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT TEAM.<br>
 AMERICAN INTERNATIONAL UNIVERSITY-BANGLADESH</p>
 
 
 <p><b>Jannatul Ferdus</b> <small>  19-39371-1</small></p>
+<img src="../img/JF.jfif" width="110" height="120">
+<a href="https://www.facebook.com/yesmin.kakon.9/"><img src="../img/Facebook.png" width="25" height="25"></a>
+<a href="mailto:jannatul6246ferdus@gmail.com"><img src="../img/mail.png" width="25" height="25"></a>
 <p>
 2020-2022 © BEPARTNER <br>
-POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT DEPARTMENT.<br>
+POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT TEAM.<br>
 AMERICAN INTERNATIONAL UNIVERSITY-BANGLADESH </p>
 
 
 <p><b>Abdullah al Mahmud</b> <small>  19-39500-1</small></p>
+<img src="../img/ALM.jpg" width="110" height="120">
+<a href="https://www.facebook.com/abdullahal.mahmud.5015/"><img src="../img/Facebook.png" width="25" height="25"></a>
+<a href="mailto:abdullahalmahmud06337@gmail.com"><img src="../img/mail.png" width="25" height="25"></a>
 <p>
 2020-2022 © BEPARTNER <br>
-POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT DEPARTMENT.<br>
+POWERED BY CODE HUNTER SOFTWARE DEVELOPMENT TEAM.<br>
 AMERICAN INTERNATIONAL UNIVERSITY-BANGLADESH </p>
 
 <hr>
@@ -71,7 +84,7 @@ A Chief Legal Officer acts as a senior legal executive who assists in reducing t
 
 <hr>
 
-<p> Home | About | Blog | Contact            © www.bepartner.com   </p>
+<?php include "./footer.php"?>
 
 
 </body>
