@@ -9,7 +9,7 @@
 <a href="sign_in_admin.php"><h2>Admin</h2></a>
 
 <p><b>Sazzadul alam shawon</b> <small>  19-39385-1</small></p>
-<img src="../img/SUAS.jpg" width="110" height="120">
+<img src="../img/SUAS.png" width="110" height="120">
 <a href="https://www.facebook.com/sazzadulalamshawonbd/"><img src="../img/Facebook.png" width="25" height="25"></a>
 <a href="mailto:sazzad.sua@gmail.com"><img src="../img/mail.png" width="25" height="25"></a>
 

@@ -1,5 +1,1 @@
-<?php include "./nav_ber_in.php"?>
-
-
-
-<?php include "./footer.php"?>
+<?php header("location:in_login.php")?>

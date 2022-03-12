@@ -1,0 +1,24 @@
+[
+    {
+        "FullName": "Sazzad",
+        "email": "Sazzad.sua@gmail.com",
+        "password": "62466246",
+        "NIDName": "1232567891",
+        "DOB": "2022-03-30",
+        "gender": "Male",
+        "phone": "01772994093",
+        "Address": "House:1007, Block:(i) ,  Konabari model town road",
+        "Securitykey": "SUAS"
+    },
+    {
+        "FullName": "Sazzad",
+        "email": "19-39385-1@student.aiub.edu",
+        "password": "12345678",
+        "NIDName": "1232567891",
+        "DOB": "2022-03-03",
+        "gender": "Male",
+        "phone": "01772994097",
+        "Address": "House:1007, Block:(i) ,  Konabari model town road",
+        "Securitykey": "zxcv"
+    }
+]

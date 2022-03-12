@@ -1,4 +1,2 @@
-<?php include "./nav_ber_ad.php"?>
+<?php header("location:s_admin_reg01.php")?>
 
-
-<?php include "./footer.php"?>

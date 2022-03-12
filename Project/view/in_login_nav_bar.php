@@ -1,4 +1,7 @@
-<!--shawon,sazzadul alam [19-39385-1]-->
+<head>
+<title>Login | BePartner</title> 
+<head></head>
+<body>
     <table>
         <tr>
 
@@ -11,15 +14,16 @@
           <th><a href="blog.php"> Blog </a></th>
           <th> </th>
           <th><a href="contact.php"> Contact </a></th>
+         <th> </th>
+          <th><a href="home.php"> Become an Investor </a></th>
           <th> </th>
-          <th><a href="Become_a_Enterprenrur.php"> Become a Enterprenrur </a></th>
+          <!-- <th><a href="in_profile.php"> Profile </a></th>
+          <th> </th> -->
+          <th><a href="in_register.php">join</a></th>
           <th> </th>
-          <th><a href="sign_in_investor.php"> Sign In </a></th>
-          <th> </th>
-          <th><a href="join_investor.php"> Join </a></th>
-          <th> </th>
+          
     
         </tr>
        
     </table>
-    <hr>
+</body>

@@ -12,7 +12,7 @@
             </tr>
             <tr>
                 <th>
-                <img src="../img/SUAS.jpg" width="210" height="220">
+                <img src="../img/SUAS.png" width="210" height="220">
                 </th>
                 <th>
                 <img src="../img/MRH.png" width="210" height="220">

@@ -1,0 +1,53 @@
+[
+    {
+        "email": "rownokjahan@gmail.com",
+        "password": "cadet",
+        "firstName": "Md. Rifat",
+        "lastName": "Hossain",
+        "DOB": "2022-03-08",
+        "gender": "Female",
+        "phone": "01796589171",
+        "pAddress": "singair,manikgonj,dhaka",
+        "oname": "2022-03-08",
+        "linumber": "ueueu83892832",
+        "tin": "23121313131",
+        "oaddress": "singair,manikgonj",
+        "edate": "2022-03-29",
+        "oemail": null,
+        "site": "https:\/\/www.youtube.com"
+    },
+    {
+        "email": "rownokjahan0001@gmail.com",
+        "password": "cadetrifat",
+        "firstName": "Md. Rifat",
+        "lastName": "Hossain",
+        "DOB": "2022-03-22",
+        "gender": "Male",
+        "phone": "01796589171",
+        "pAddress": "singair,manikgonj,dhaka",
+        "oname": "2022-03-22",
+        "linumber": "ueueu83892832",
+        "tin": "234242",
+        "oaddress": "singair,manikgonj",
+        "edate": "2022-03-25",
+        "oemail": "rh140025@gmail.com",
+        "site": "https:\/\/www.youtube.com"
+    },
+    {
+        "email": "Sazzad.sua@gmail.com",
+        "password": "25896314",
+        "firstName": "Sazzad",
+        "lastName": "sua",
+        "DOB": "2022-03-08",
+        "gender": "Male",
+        "phone": "01772994093",
+        "pAddress": "Konabari model town, konabari , gazipur",
+        "oname": "2022-03-08",
+        "linumber": "jjjjj",
+        "tin": "5",
+        "oaddress": "Konabari model town, konabari , gazipur",
+        "edate": "2022-03-02",
+        "oemail": "Sazzad.sua@gmail.com",
+        "site": "https:\/\/github.com\/"
+    }
+]

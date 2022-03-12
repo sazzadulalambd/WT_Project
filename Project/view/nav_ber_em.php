@@ -17,7 +17,7 @@
           <th> </th>
           <th><a href="home.php"> Become a Investor </a></th>
           <th> </th>
-          <th><a href="sign_in_enterprenrur.php"> Sing In </a></th>
+          <th><a href="sign_in_enterprenrur.php"> Sign In </a></th>
           <th> </th>
           <th><a href="join_enterprenrur.php"> Join </a></th>
           <th> </th>
