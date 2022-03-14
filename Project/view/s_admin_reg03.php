@@ -18,13 +18,12 @@
 <td>Confirm password:</td>
   <td><input type="password" name="pwd2"></td>
 </tr>
-<tr>
-<td><input type="checkbox" name="checkbox">I agree to BEPARTNER's Terms of service
-</tr>
+
 
 
 </table>
-
+<input type="checkbox" name="checkbox">I agree to BEPARTNER's Terms of service
+<br>
 <input type="submit" value="Previous" name = "previous">
 <input type="submit" value="Join" name="join">
 <input type="reset"  value="Reset">

@@ -7,9 +7,9 @@
     <table>
         <tr>
 
-          <th><a href="admin.php"><img src="../img/page_ icon.png" width="200" height="45"></a></th>
+          <th><a href="employee.php"><img src="../img/page_ icon.png" width="200" height="45"></a></th>
           <th> </th>
-          <th><a href="admin.php"> Home </a></th>
+          <th><a href="employee.php"> Home </a></th>
           <th> </th>
           <th><a href="about.php"> About </a></th>
           <th> </th>
@@ -35,7 +35,7 @@
     </table>
 
     <hr>
-        <h1>Admin home</h1> 
+        <h1>Employee home</h1> 
 </body>
 
 </html>

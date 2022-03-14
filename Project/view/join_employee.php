@@ -1,5 +1,1 @@
-<?php include "./nav_ber_em.php"?>
-
-
-
-<?php include "./footer.php"?>
+<?php header("location:J_Employee_reg01.php")?>

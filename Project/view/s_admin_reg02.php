@@ -11,22 +11,22 @@
 <table>
 <tr>
 <td>NID:</td>
-<td><input type="text" name="Nname" placeholder="10 digit number" value="<?php echo  $_SESSION["Nname"];  ?>" ></td>
+<td><input type="text" name="Nname" placeholder="10 digit number" value="<?php if(isset($_SESSION["Nname"])) echo  $_SESSION["Nname"];  ?>" ></td>
 </tr>
 
 <tr>
 <td>Phone number:</td>
-<td><input type="tel" id="phone" name="phone" placeholder="01998888224" value="<?php echo  $_SESSION["phone"];  ?>"></td>
+<td><input type="tel" id="phone" name="phone" placeholder="01998888224" value="<?php if(isset($_SESSION["phone"])) echo  $_SESSION["phone"];  ?>"></td>
 </tr>
 
 <tr>
 <td>Address:</td>
-<td><input type="text" name="Address" value="<?php echo  $_SESSION["Address"];  ?>"></td>
+<td><input type="text" name="Address" value="<?php if(isset($_SESSION["Address"])) echo  $_SESSION["Address"];  ?>"></td>
 </tr>
 
 <tr>
 <td>Security key:</td>
-<td><input type="key" name="Skey" value="<?php echo  $_SESSION["Skey"];  ?>" ></td>
+<td><input type="key" name="Skey" value="<?php if(isset($_SESSION["Skey"])) echo  $_SESSION["Skey"];  ?>" ></td>
 </tr>
 
 <tr>
@@ -38,7 +38,7 @@
 
 <tr>
 <td>Date of birth:</td>
-<td><input type="date" name="age" value="<?php echo  $_SESSION["age"];  ?>"></td>
+<td><input type="date" name="age" value="<?php if(isset($_SESSION["age"])) echo  $_SESSION["age"];?>"></td>
 </tr>
 
 

@@ -23,7 +23,7 @@
 <td><input type="password" name="pwd" placeholder="********"></td>
 </tr>
 <tr>
-<td><input type="checkbox" name="checkbox">Remember me.
+<td><input type="checkbox" name="autologin">Remember me.
 </tr>
 <tr>
 <td><input type="submit" value="Sign In" name="submit"><td>

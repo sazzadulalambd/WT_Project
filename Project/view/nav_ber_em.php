@@ -14,12 +14,12 @@
           <th><a href="blog.php"> Blog </a></th>
           <th> </th>
           <th><a href="contact.php"> Contact </a></th>
+          <!-- <th> </th>
+          <th><a href="home.php"> Become a Investor </a></th> -->
           <th> </th>
-          <th><a href="home.php"> Become a Investor </a></th>
+          <th><a href="sign_in_employee.php"> Sign In </a></th>
           <th> </th>
-          <th><a href="sign_in_enterprenrur.php"> Sign In </a></th>
-          <th> </th>
-          <th><a href="join_enterprenrur.php"> Join </a></th>
+          <th><a href="join_employee.php"> Join </a></th>
           <th> </th>
     
         </tr>

@@ -11,12 +11,12 @@
 <table>
 <tr>
 <td>Full Name:</td>
-<td><input type="text" name="fname" placeholder="User name" value="<?php echo  $_SESSION["fname"];  ?>"></td>
+<td><input type="text" name="fname" placeholder="User name" value="<?php if(isset($_SESSION["fname"])) echo $_SESSION["fname"];  ?>"></td>
 </tr>
 
 
 <td>Email:</td>
-<td><input type="email" name="email" placeholder="example@bepartner.com"  value="<?php echo  $_SESSION["email"];  ?>"> </td>
+<td><input type="email" name="email" placeholder="example@bepartner.com"  value="<?php if(isset($_SESSION["email"])) echo  $_SESSION["email"];  ?>"> </td>
 </tr>
 <tr>
 
@@ -25,7 +25,7 @@
 </tr>
 <tr> 
 <td><input type="submit" value="Continue" name="ad_next1">
-<input type="reset" value="Reset"></td>
+<input type="submit" value="Reset" name = "reset"></td>
 </tr>
 </table>
 
