@@ -1,0 +1,35 @@
+[
+    {
+        "FristName": "Sazzad",
+        "lastName": "sua",
+        "email": "Sazzad.sua@gmail.com",
+        "password": "25896314",
+        "NIDName": "1234567891",
+        "DOB": "2022-03-17",
+        "gender": "Male",
+        "Designation": "CTO",
+        "Securitykey": "mnbv"
+    },
+    {
+        "FristName": "jannat",
+        "lastName": "ferdus",
+        "email": "fdssss@gmail.com",
+        "password": "987654321",
+        "NIDName": "0258963147",
+        "DOB": "2000-11-15",
+        "gender": "Female",
+        "Designation": "CFO",
+        "Securitykey": "lkjh"
+    },
+    {
+        "FristName": "shima",
+        "lastName": "akter",
+        "email": "klm@gmail.com",
+        "password": "34567890",
+        "NIDName": "4569871236",
+        "DOB": "2022-03-10",
+        "gender": "Female",
+        "Designation": "CTO",
+        "Securitykey": "hjkl"
+    }
+]
