@@ -7,9 +7,9 @@ $pflag = 0;
 
 if(isset($_POST["previous"])){
 
-    header("location:s_admin_reg01.php");
+    header("location:J_Employee_reg01.php");
  } 
-if(isset($_POST["ad_next1"]))
+if(isset($_POST["continue"]))
 {
     
     $error = 0;
@@ -42,32 +42,23 @@ if(isset($_POST["ad_next1"]))
         
     }
 
-    if(!isset($_POST["phone"])){
-        echo("Invalid Phone number.<br>");
+    if(!isset($_POST["Nname"])){
+        echo("Invalid NID.<br>");
         $error = 1;
     }
     else{
         $nflag = 0;
-        $pflag = 0;
-        $data = file_get_contents("../file/ad_join_info.json");
-        $readData = json_decode($data);
-        foreach($readData as $myobject)
+        $data = file_get_contents("../file/em_join_info.json");
+        $readData0 = json_decode($data);
+        foreach($readData0 as $myobject)
         {
 	        foreach($myobject as $key=>$value)
             {
-		        if($key == "Nname" && $value == $_POST["Nname"]){
+		        if($key == "ekey" && $value == $_POST["ekey"]){
                     $nflag = 1;
                 }
-                if($key == "phone" && $value == $_POST["phone"]){
-                    $pflag = 1;
-                }
-
 	        }
     
-        }
-        if($pflag == 1){
-            echo "Phone already exixts.<br>";
-            $error = 1;
         }
     }
 
@@ -83,22 +74,22 @@ if(isset($_POST["ad_next1"]))
         }
     }
 
-    if(empty($_POST["Address"])){
-        echo"Invalid address.<br>";
+    if(empty($_POST["designation"])){
+        echo"Invalid Designation.<br>";
         $error = 1;
     }
 
-    if(!isset($_POST["Skey"])){
+    if(!isset($_POST["ekey"])){
         echo("Enter Security key .<br>");
         $error = 1;
     }
     else{
         
-        $data = file_get_contents("../file/SQK.json");
+        $data = file_get_contents("../file/SQK_em.json");
         $readData = json_decode($data,true);
         foreach($readData as $myobject)
         {
-            if($myobject["Securitykey"] == $_POST["Skey"])
+            if($myobject["Securitykey"] == $_POST["ekey"])
             {
                     $Sflag = 0;
                 
@@ -119,14 +110,14 @@ if(isset($_POST["ad_next1"]))
 
     if($error == 0){
 
-        $_SESSION["Nname"] = $_POST["Nname"];
-        $_SESSION["phone"] = $_POST["phone"];
-        $_SESSION["Address"] = $_POST["Address"];
-        $_SESSION["Skey"] = $_POST["Skey"];
-        $_SESSION["DOB"] = $_POST["age"];
+        $_SESSION["designation"] = $_POST["designation"];
+        $_SESSION["ekey"] = $_POST["ekey"];
         $_SESSION["gender"] = $catagory;
+        $_SESSION["Nname"] = $_POST["Nname"];
+        $_SESSION["DOB"] = $_POST["age"];
+        
                 
-        header("location:s_admin_reg03.php");
+        header("location:J_Employee_reg03.php");
     }
     else{
         $error = 0;

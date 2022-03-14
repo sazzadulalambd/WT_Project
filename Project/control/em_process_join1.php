@@ -5,18 +5,21 @@ $eflag = 0;
 if(isset($_POST["reset"])){
     session_unset();
     session_destroy();
-   // unset($_SESSION["fname"]);
-   // unset($_SESSION["fname"]);
-    //echo "reset";
 }
 
-if(isset($_POST["ad_next1"])){
+if(isset($_POST["continue"])){
 
     $error = 0;
 
     $fname = $_POST["fname"];
     if(empty($fname)){
-        echo"Invalid Full name.<br>";
+        echo"Invalid Frist Name.<br>";
+        $error = 1;
+    }
+
+    $lname = $_POST["lname"];
+    if(empty($lname)){
+        echo"Invalid Last Name.<br>";
         $error = 1;
     }
     
@@ -29,7 +32,7 @@ if(isset($_POST["ad_next1"])){
     else{
 
         $eflag = 0;
-        $data = file_get_contents("../file/ad_join_info.json");
+        $data = file_get_contents("../file/em_join_info.json");
         $readData = json_decode($data);
         foreach($readData as $myobject)
         {
@@ -53,8 +56,9 @@ if(isset($_POST["ad_next1"])){
     if($error == 0){
         
         $_SESSION["fname"] = $_POST["fname"];
+        $_SESSION["lname"] = $_POST["lname"];
         $_SESSION["email"] = $_POST["email"];
-        header("location:s_admin_reg02.php");
+        header("location:J_Employee_reg02.php");
     }
     else{
         $error = 0;
